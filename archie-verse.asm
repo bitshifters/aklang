@@ -1,5 +1,14 @@
 ; ============================================================================
-; Archie-Verse: a Acorn Archimedes demo/trackmo framework.
+; ArchieKlang Announcetro
+;
+; Code: kieran^bitshifters
+; Music: Rhino^Torment, Virgill^Alcatraz
+; Samples & Tooling: Virgill^Alcatraz
+; 
+; This is a small intro to demonstrate the port of AmigaKlang to the Acorn
+; Archimedes. It was released at the NOVA demoparty, Devon UK, June 2024.
+;
+; Based on the ArchieVerse demo framework.
 ; ============================================================================
 
 ; ============================================================================
@@ -15,7 +24,6 @@
 .equ _DEBUG_RASTERS,            (_DEBUG && 1)
 .equ _DEBUG_SHOW,               (_DEBUG && 1)
 .equ _CHECK_FRAME_DROP,         (!_DEBUG && 0)
-.equ _SYNC_EDITOR,              (_DEBUG && 1)   ; sync driven by external editor.
 
 .equ DebugDefault_PlayPause,    1		; play
 .equ DebugDefault_ShowRasters,  0
